@@ -1,0 +1,59 @@
+==========================================
+Deploy react app in GithubPages
+==========================================
+git inint
+git status
+git add .
+git commit -m "initial commit"
+git branch -M 'main
+git remote add origin "url"
+git push -u origin 'main'
+
+npm install gh-pages --save-dev
+"homepage" : "url"
+"predeploy":"npm run build"
+"deploy":"gh-pages -d build"
+
+npm run deploy	
+******************************************
+
+
+==========================================
+Git commands
+==========================================
+=> git clone <url>                            (clone remote repository in our local)
+=> ls                                         (list of files)
+=> ls -la                                     (list of file with hidden files)
+=> git pull                                   (recving files from remote repository)
+=> cat <file Name>                            (it opens the file content)
+=> git status                                 (indicates traked and untracked file) 
+=> git add <filename> or .(all files)         (it add to the stageing area)
+=> git commit -m "commit message"             (stageing to local repo modified)
+=> git push origin main                       (origin=> alias name of the github repository,
+					       main =>branch name 
+					       it push the local repo to remote repo all staged file)
+=> git remote -v                              (know the remote repositorys with alias name)
+=> git branch                                 (To list branches)
+=> git branch name                            (Create a new branch)
+=> git checkout <branchname>                  (Switching to another branch)
+=> git checkout -b <branchname>               (Creating and switing to new branch)
+=> git branch -m <oldbranchname> <newbranchname> (Renaming a branch)
+gitignore 
+
+******************************************
+
+==========================================
+Git empty repository means no file in repo
+==========================================
+=> git init                                   (intilize the repository in local in add one .git file)
+=> echo "# Git-Test-EmptyRepo" >> README.md   (adding new file to repository)
+=> git add README.md                          (it add to the stageing area)
+=> git commit -m "first commit"               (stageing to local repo modified)
+=> git branch -M main                         (changeing branch)
+=> git remote add origin https://github.com/RahulWhiztekcorp/Git-Test-EmptyRepo.git   (my project adding to the local to github remote repository)
+=> git push -u origin main                    (origin=> alias name of the github repository,
+					       main =>branch name 
+					       it push the local repo to remote repo all staged file)
+******************************************
+
+
