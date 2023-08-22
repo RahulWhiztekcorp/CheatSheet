@@ -38,7 +38,7 @@ Git commands
 => git checkout <branchname>                  (Switching to another branch)
 => git checkout -b <branchname>               (Creating and switing to new branch)
 => git branch -m <oldbranchname> <newbranchname> (Renaming a branch)
-gitignore 
+gitignore                                     https://www.toptal.com/developers/gitignore
 
 ******************************************
 
